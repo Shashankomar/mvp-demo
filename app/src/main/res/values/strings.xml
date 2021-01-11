@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo MVP Login</string>
+    <string name="app_name">MVP Demo</string>
     <string name="log_in">Log in</string>
     <string name="last_name">Last Name</string>
     <string name="first_name">First Name</string>
