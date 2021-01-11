@@ -1,4 +1,4 @@
-package com.example.demomvplogin;
+package com.example.mvpdemo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.demomvplogin", appContext.getPackageName());
+        assertEquals("com.example.mvpdemo", appContext.getPackageName());
     }
 }

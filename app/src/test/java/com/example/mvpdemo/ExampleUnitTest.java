@@ -1,4 +1,4 @@
-package com.example.demomvplogin;
+package com.example.mvpdemo;
 
 import org.junit.Test;
 

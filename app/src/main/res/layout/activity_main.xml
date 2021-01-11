@@ -3,41 +3,31 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="@dimen/_8dp">
+        android:padding="@dimen/_16dp">
 
-
-        <EditText
-            android:id="@+id/loginActivity_firstName_editText"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/first_name"
-            tools:ignore="Autofill,TextFields"
-            tools:text="First Name" />
-
-        <EditText
-            android:id="@+id/loginActivity_lastName_editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8dp"
-            android:hint="@string/last_name"
-            tools:ignore="Autofill,TextFields"
-            tools:text="Last Name" />
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/hi_please_click_on_button_to_change_it_s_text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_16" />
 
         <Button
-            android:id="@+id/btn_login"
+            android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_16dp"
+            android:textSize="@dimen/text_size_btn_18_sp"
             android:background="@color/colorAccent"
-            android:text="@string/log_in"
+            tools:text="@string/log_in"
             android:textColor="@color/colorWhite" />
-
     </LinearLayout>
 </layout>

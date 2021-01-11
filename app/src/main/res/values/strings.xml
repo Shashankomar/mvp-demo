@@ -3,4 +3,7 @@
     <string name="log_in">Log in</string>
     <string name="last_name">Last Name</string>
     <string name="first_name">First Name</string>
+    <string name="hi_please_click_on_button_to_change_it_s_text">Hi! Please click on button to change it\'s text.</string>
+    <string name="hey_click_me">Hey! Click Me..</string>
+    <string name="btn_clicked">Button Clicked!</string>
 </resources>
